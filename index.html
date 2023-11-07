@@ -1,10 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+ <head>
+        <title>Documentacion de Python </title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    </head>
     <body>
+        <nav id="navbar">
+            <header id="nav-header"><i class="fa-brands fa-python"></i> Documentacion Python</header>
+            <h3><i class="fa-solid fa-indent"></i> Indice</h3>
+            <ul>
+                <li><a class="nav-link" href="#Introduccion">Introduccion</a></li>
+                <li><a class="nav-link" href="#Importancia_de_saber_Python">Importancia de saber Python</a></li>
+                <li><a class="nav-link" href="#Hola_Mundo">Hola Mundo</a></li>
+                <li><a class="nav-link" href="#Operadores">Operadores</a></li>
+                <li><a class="nav-link" href="#Expresiones">Expresiones</a></li>
+                <li><a class="nav-link" href="#Sentencias">Sentencias</a></li>
+                <li><a class="nav-link" href="#Comentarios">Comentarios</a></li>
+                <li><a class="nav-link" href="#Palabras_reservadas_en_Python">Palabras reservadas en Python</a></li>
+                <li><a class="nav-link" href="#Constantes">Constantes</a></li>
+            </ul>
+        </nav>
         <main id="main-doc">
-            <h1>Documentacion Python</h1>
             <section class="main-section" id="Introduccion">
-                <h1>Introduccion</h1>
+                <header>Introduccion</header>
                 <article>
                     <p>Python es un lenguaje de programación de propósito general que cada vez es más popular para hacer ciencia de datos. Empresas alrededor del mundo utilizan Python para recolectar información de sus datos y obtener una ventaja competitiva.</p>
                     <p>Sobre todo esto, Python es: </p>
@@ -19,8 +38,8 @@ imperativa y programación orientada a objetos.</li>
                     </ul>
                 </article>
             </section>
-            <section class="main-section" id="Importancia">
-                <h1>Importancia de saber Python</h1>
+            <section class="main-section" id="Importancia_de_saber_Python">
+                <header>Importancia de saber Python</header>
                 <article>
                     <p>Python es importante aprenderlo al hacer uso de una sintaxis legible, la curva de aprendizaje es muy rápida, siendo de
                         este modo, uno de los mejores lenguajes para iniciarse en la programación en modo
@@ -36,7 +55,7 @@ imperativa y programación orientada a objetos.</li>
                 </article>
             </section>
             <section class="main-section" id="Hola_Mundo">
-                <h1>Hola Mundo</h1>
+                <header>Hola Mundo</header>
                 <article>
                     <p>Para empezar a escribir codigo en Phyton, vamos a hacer un programa que imprima el texto "Hola Mundo".</p>
                     <p>Para eso les dejo el codigo del programa:</p>
@@ -44,20 +63,23 @@ imperativa y programación orientada a objetos.</li>
                 </article>
             </section>
             <section class="main-section" id="Operadores">
-                <h1>Operadores</h1>
+                <header>Operadores</header>
                 <article>
                     <p>Un operador es un carácter o conjunto de caracteres que actúa sobre una, dos o más variables y/o literales para llevar a cabo una operación con un resultado determinado.</p>
                     <p>Los operadores comunes son los ariméticos: suma(+), resta(-) o multiplicación(*) aunque tambien en Python existen otros operadores</p>
                 </article>
             </section>
             <section class="main-section" id="Expresiones">
-                <h1>Expresiones</h1>
+                <header>Expresiones</header>
                 <article>
                 <p>Una expresión es una unidad de código que devuelve un valor y está formada por una combinación de operandos (variables y literales) y operadores.</p>
+                  <code>x = 10 + 10</code> 
+                  <code>print(x)</code>
+                  <p>Al imprimir x nos da como resultado 20</p>
                 </article>
             </section>
             <section class="main-section" id="Sentencias">
-                <h1>Sentencias</h1>
+                <header>Sentencias</header>
                 <article>
                     <p>Una sentencia o declaración es una instrucción que define una acción. Una sentencia puede estar formada por una o varias expresiones, aunque no siempre es así.</p>
                     <p>En definitiva, las sentencias son las instrucciones que componen nuestro programa y determinan su comportamiento.</p>
@@ -65,7 +87,7 @@ imperativa y programación orientada a objetos.</li>
                 </article>
             </section>
             <section class="main-section" id="Comentarios">
-                <h1>Comentarios</h1>
+                <header>Comentarios</header>
                 <article>
                     <p>Python permite escribir comentarios en el código. Los comentarios son útiles para explicar por qué estamos programando algo de un modo concreto o añadir indicaciones. Te aseguro que son de utilidad cuando se retoma un programa o aplicación en el futuro.</p>
                     <p>Los comentarios son ignorados por el intérprete de Python. Solo tienen sentido para los programadores.</p>
@@ -74,17 +96,15 @@ imperativa y programación orientada a objetos.</li>
                     <p>Tambien es posible escribir comentarios con varias lineas.</p>
                 </article>
             </section>
-            <section class="main-section" id="Palabras_Reservadas">
-                <h1>Palabras reservadas en Python</h1>
+            <section class="main-section" id="Palabras_reservadas_en_Python">
+                <header>Palabras reservadas en Python</header>
                 <p>Python tiene una serie de palabras clave reservadas, por tanto, no pueden usarse como nombres de variables, funciones, etc.</p>
                 <p>Estas palabras clave se utilizan para definir la sintaxis y estructura del lenguaje Python.</p>
                 <p>Las palabras reservadas son las siguentes:</p>
-                <ul>
-                    <li>and, as, assert, break, class, continue, def, del, elif, else, except, False, finally, for, from, global, if, import, in, is, lambda, None, nonlocal, not, or, pass, raise, return, True, try, yield, while y with</li>
-                </ul>
+                    <code>and, as, assert, break, class, continue, def, del, elif, else, except, False, finally, for, from, global, if, import, in, is, lambda, None, nonlocal, not, or, pass, raise, return, True, try, yield, while y with</code>
             </section>
             <section class="main-section" id="Constantes">
-                <h1>Constantes</h1>
+                <header>Constantes</header>
                 <p>En Python, a diferencia de los otros lenguajes, no existen las constantes.</p>
                 <p>Entendemos como constante una variable que una vez asignado un valor, este no se puede modificar. Es decir, que a la variable no se le puede asignar ningún otro valor una vez asignado el primero.</p>
                 <p>Se puede simular este comportamiento, siempre desde el punto de vista del programador y atendiendo a convenciones propias, pero no podemos cambiar la naturaleza mutable de las variables.</p>
@@ -97,4 +117,4 @@ imperativa y programación orientada a objetos.</li>
             </section>
         </main>
     </body>
-</html>
+  </html>
