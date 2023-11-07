@@ -1,0 +1,80 @@
+header {
+  top: 0;
+  width: 100%;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(95, 42, 42);
+}
+
+@media (max-width: 600px) {
+  #header {
+    flex-direction: column;
+  }
+  #header-img {
+    width: 100%;
+  }
+}
+
+#header-img {
+  width: 30%;
+  padding: 2%;
+}
+
+#nav-bar {
+  position: fixed;
+}
+
+  nav > ul {
+    list-style: none;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav > a {
+  text-decoration: none;
+}
+  
+  #productos {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .producto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    border: 1px solid #000;
+    width: calc(100% / 3);
+    margin: 5px;
+  }
+  
+img {
+  width: 60%;
+  margin: auto;
+}
+
+button {
+  padding: 1%;
+  margin: 20px;
+}
+
+  footer {
+   padding: 30px;
+   margin-top: 20%;
+    display: block;
+    background: rgb(151, 150, 150);
+  }
+  
+.contacto {
+  text-decoration: none;
+}
+
+  .fa-mobile-alt {
+    display: block;
+  }
